@@ -1,12 +1,13 @@
-import { useState } from 'react'
+// import { useState } from 'react'
 import { Outlet } from 'react-router-dom';
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './index.css'
+// import reactLogo from './assets/react.svg'
+// import viteLogo from '/vite.svg'
+// import './index.css'
 import Nav from './components/Nav'
+import MyName from './components/MyName';
 
 function App() {
-  const [count, setCount] = useState(0)
+  // const [count, setCount] = useState(0)
 
 //   return (
 //     <>
@@ -37,11 +38,15 @@ function App() {
 return (
   <>
     <div>
-      <header>Sichoun N. Lee</header>
-      <Nav/>
-      <main className="mx-3">
-        <Outlet/>
-      </main>
+      <header>
+        <MyName/>
+        <Nav/>
+      </header>
+      <section className='content'>
+        <main className="mx-3">
+          <Outlet />
+        </main>
+      </section>
       <footer>this is the footer</footer>
     </div>
   </>

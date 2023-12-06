@@ -8,9 +8,10 @@ import './index.css'
 
 import App from './App';
 import Error from './pages/Error';
-import Home from './pages/Home';
 import Contact from './pages/Contact';
 import About from './pages/About';
+import Portfolio from './pages/Portfolio';
+import Resume from './pages/Resume';
 
 // Define the accessible routes, and which components respond to which URL
 const router = createBrowserRouter([
@@ -21,15 +22,19 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <Home />,
-      },
-      {
-        path: '/About',
         element: <About />,
       },
       {
         path: '/Contact',
         element: <Contact />,
+      },
+      {
+        path: '/Portfolio',
+        element: <Portfolio />,
+      },
+      {
+        path: '/Resume',
+        element: <Resume />,
       },
     ],
   },
