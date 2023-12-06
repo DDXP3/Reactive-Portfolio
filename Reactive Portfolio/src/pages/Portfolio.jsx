@@ -1,4 +1,4 @@
-export default function About() {
+export default function Portfolio() {
     return (
       <div className="contentCard">
         <h2 className="title">Portfolio Page</h2>

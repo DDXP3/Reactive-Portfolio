@@ -47,7 +47,9 @@ return (
           <Outlet />
         </main>
       </section>
-      <footer>this is the footer</footer>
+      <footer>
+        <Nav/>
+      </footer>
     </div>
   </>
 )
