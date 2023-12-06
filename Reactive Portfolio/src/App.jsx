@@ -5,6 +5,7 @@ import { Outlet } from 'react-router-dom';
 // import './index.css'
 import Nav from './components/Nav'
 import MyName from './components/MyName';
+import Foot from './components/Foot'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -49,6 +50,7 @@ return (
       </section>
       <footer>
         <Nav/>
+        <Foot/>
       </footer>
     </div>
   </>

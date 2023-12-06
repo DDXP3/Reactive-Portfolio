@@ -148,6 +148,18 @@ li {
   display: block;
 }
 
+.profile {
+  align-items: center;
+  justify-content: center;
+}
+
+.infoscript {
+  display: inline-block;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
 .discript {
   text-indent: 10px;
   padding: 10px;
@@ -164,4 +176,16 @@ footer {
   background-color: rgb(48, 138, 255);
   padding: 1em;
   /* justify-content: end; */
+  justify-content: center;
+}
+
+.foot {
+  display: inline-block;
+  height: 5%;
+  padding: 5%;
+}
+
+a {
+  display: inline-block;
+  justify-content: space-evenly;
 }
