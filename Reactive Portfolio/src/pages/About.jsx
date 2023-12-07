@@ -5,7 +5,7 @@ export default function About() {
       <div className="contentCard">
         <h2 className="title">About Page</h2>
         <div className='profile'>
-        <img className="image" src={SichounImg} alt='SichounIMG'></img>
+        <img className="profileImage" src={SichounImg} alt='SichounIMG'></img>
         <p className="infoscript">
           <h3 className='subTitle'>
             Sichoun Nplhaib Lee
